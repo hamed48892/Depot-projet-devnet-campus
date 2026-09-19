@@ -1,0 +1,23 @@
+configure terminal
+hostname R1-DKR
+!
+interface Ethernet4/0
+ description Link to SW1-CORE
+ no shutdown
+!
+interface Ethernet4/0.10
+ description Gateway LAN DKR
+ encapsulation dot1Q 10
+ ip address 10.10.10.1 255.255.255.0
+ no shutdown
+!
+interface FastEthernet0/0
+ description WAN Link to R2-ABJ
+ ip address 192.168.20.1 255.255.255.252
+ no shutdown
+!
+router eigrp 100
+ network 10.10.10.0 0.0.0.255
+ network 192.168.20.0 0.0.0.3
+ no auto-summary
+end

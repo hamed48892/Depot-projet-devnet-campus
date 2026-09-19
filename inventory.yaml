@@ -1,0 +1,37 @@
+---
+devices:
+  - host: "192.168.10.10"
+    username: "devnet"
+    password: "cisco"
+    secret: "cisco"
+    device_type: "autodetect"
+
+  - host: "192.168.10.20"
+    username: "devnet"
+    password: "cisco"
+    secret: "cisco"
+    device_type: "autodetect"
+
+  - host: "192.168.10.30"
+    username: "devnet"
+    password: "cisco"
+    secret: "cisco"
+    device_type: "autodetect"
+
+  - host: "192.168.10.40"
+    username: "devnet"
+    password: "cisco"
+    secret: "cisco"
+    device_type: "autodetect"
+
+  - host: "192.168.10.50"
+    username: "devnet"
+    password: "cisco"
+    secret: "cisco"
+    device_type: "autodetect"
+
+  - host: "192.168.10.60"
+    username: "devnet"
+    password: "cisco"
+    secret: "cisco"
+    device_type: "autodetect"
